@@ -174,7 +174,7 @@
 #topic {
   border-top: 2px solid;
   width: 800px;
-  height: 650px;
+  height: 550px;
   margin-left: 160px;
   display: inline-block;
 }
@@ -183,6 +183,8 @@
   width: 250px;
   display: inline-block;
   position: relative;
+  margin-top: 20px;
+  margin-right: 12px;
 }
 .img-text {
   width: 250px;
@@ -202,5 +204,23 @@
 .container {
   width: 1300px;
   height: 1040px;
+  display: inline-block;
+}
+.sidebar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.sidebar-content {
+  border-top: 1px solid gray;
+  height:80px;
+  width: inherit;
+  text-align: left;
+}
+#editor {
+  border-top: 2px solid;
+  width: 800px;
+  height: 350px;
+  margin-left: 160px;
   display: inline-block;
 }
