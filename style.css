@@ -9,30 +9,50 @@
   left:0;
   right:0;
   height: 43px;
-  background-color: red;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
 }
 .left {
-  float:left;
   height: 16px;
   width: 16px;
-  display: inline;
+  position: absolute;
+  top:15px;
+  margin-left: 5px;
 }
-.top-header h3 {
-  display: inline;
+.menu {
+  left:5px;
+}
+.search {
+  left:31px;
+}
+.space-cosmos {
+  position: absolute;
+  left:51px;
+  width:auto;
 }
 .mid {
+  position: relative;
+  top:10px;
   width: 200px;
   height: 26px;
-  margin: 15px 0px 0px 495px;
-  position: absolute;
+  margin: 0px auto;
+  display:block;
 }
 .article-header {
   width:600px;
-  height: 100px;
+  height: 120px;
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
-  background-color: blue;
+}
+.ripples {
+  margin:0px auto;
+  width:400px;
+  height: 90px;
+  line-height: 1.2;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
 }
 #superJumbo {
   display: block;
@@ -45,9 +65,43 @@
   margin:0px auto;
   text-align: left;
 }
+.before-content {
+  width:620px;
+  margin: 40px auto 40px auto;
+}
+.Dennis {
+  font-size: 16px;
+  font-weight: bold;
+  color:black;
+
+}
+.Dennis a {
+    color: #333;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+}
+.Dennis a:hover {
+  text-decoration: none;
+}
+.before-cont-imgs {
+  width: 620px;
+  margin: 0px auto;
+  color: #333;
+}
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 5px;
+  background-color: #eee;
+}
+.bfcimg {
+  height: 18px;
+  position: relative;
+  top: 7px;
+}
 .paragraphs{
   position: relative;
-  top:150px;
+  top:0px;
   width:620px;
   margin:0px auto;
   text-align: left;
@@ -57,7 +111,6 @@
   margin:25px 0px;
   line-height: 1.5;
   font-size: 18px;
-  overflow: auto;
 }
 .paragraphs h3 {
   font-weight: bold;
@@ -69,32 +122,42 @@
   width:inherit;
 }
 .top-header button {
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: #6288A5;
-  height: 32px;
+  height: 34px;
   float: right;
-  display: flex;
-  vertical-align: top;
   margin-left: 10px;
+  border: 1px solid #326891;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  box-shadow: 0;
 }
 #subscribe{
-  width: 120px;
+  width: 92.8px;
+  position: absolute;
+  top:5px;
+  right: 85px;
+
 }
 #login{
-  width: 65px;
-  margin-right: 20px;
+  width: 65.89px;
+  margin-right: 10px;
+  position: absolute;
+  top:5px;
+  right: 0;
 }
 .paragraphs figure {
   width:650px;
   margin:0px -15px;
 }
-.cosmosfig figcaption {
+.cosmosfig figcaption, figcaption {
   text-align: left;
   font-size: 16px;
   color: gray;
   width: inherit;
   line-height: 1.1;
 }
-.cosmosfig figcaption small {
+.cosmosfig figcaption small, small {
   font-size: 12px;
 }
