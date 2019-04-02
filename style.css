@@ -11,6 +11,15 @@
   height: 43px;
   background-color: red;
 }
+.left {
+  float:left;
+}
+.right {
+  float:right;
+}
+.center {
+  margin: 0px auto;
+}
 .article-header {
   width:600px;
   height: 100px;
@@ -25,12 +34,12 @@
   height:500px;
   margin:0px auto;
 }
-figcaption {
+.header-photo figcaption {
   width:890px;
   margin:0px auto;
   text-align: left;
 }
-.paragraphs {
+.paragraphs{
   position: relative;
   top:150px;
   width:620px;
@@ -49,4 +58,21 @@ figcaption {
   font-size: 22px;
   line-height: 1.5;
   margin:25px 0px;
+}
+#cosmos {
+  width:inherit;
+}
+.paragraphs figure {
+  width:650px;
+  margin:0px -15px;
+}
+.cosmosfig figcaption {
+  text-align: left;
+  font-size: 16px;
+  color: gray;
+  width: inherit;
+  line-height: 1.1;
+}
+.cosmosfig figcaption small {
+  font-size: 12px;
 }
