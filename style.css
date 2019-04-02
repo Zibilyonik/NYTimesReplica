@@ -13,12 +13,18 @@
 }
 .left {
   float:left;
+  height: 16px;
+  width: 16px;
+  display: inline;
 }
-.right {
-  float:right;
+.top-header h3 {
+  display: inline;
 }
-.center {
-  margin: 0px auto;
+.mid {
+  width: 200px;
+  height: 26px;
+  margin: 15px 0px 0px 495px;
+  position: absolute;
 }
 .article-header {
   width:600px;
@@ -61,6 +67,22 @@
 }
 #cosmos {
   width:inherit;
+}
+.top-header button {
+  border-radius: 3px;
+  background-color: #6288A5;
+  height: 32px;
+  float: right;
+  display: flex;
+  vertical-align: top;
+  margin-left: 10px;
+}
+#subscribe{
+  width: 120px;
+}
+#login{
+  width: 65px;
+  margin-right: 20px;
 }
 .paragraphs figure {
   width:650px;
