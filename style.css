@@ -84,6 +84,7 @@
 .Dennis a:hover {
   text-decoration: none;
 }
+
 .before-cont-imgs {
   width: 620px;
   margin: 0px auto;
@@ -94,11 +95,15 @@
   display: inline-block;
   padding: 5px;
   background-color: #eee;
+  top:-8px;
+  position: relative;
+}
+.circle-icons {
+  float:right;
 }
 .bfcimg {
   height: 18px;
   position: relative;
-  top: 7px;
 }
 .paragraphs{
   position: relative;
@@ -203,7 +208,7 @@
 }
 .container {
   width: 1300px;
-  height: 1040px;
+  height: 820px;
   display: inline-block;
 }
 .sidebar a {
@@ -223,4 +228,34 @@
   height: 350px;
   margin-left: 160px;
   display: inline-block;
+}
+#bottomlinks {
+  width:80%;
+  height: 600px;
+  margin:0px auto;
+  border-top: 3px double lightgray;
+}
+.nylogo {
+  position: absolute;
+  height: 35px;
+  float: left;
+}
+.nylogo img{
+  width: 200px;
+  height: 26px;
+}
+.bottomholder {
+  width:16%;
+  height:400px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 35px;
+  clear:left;
+
+}
+.bottomholder a {
+  display: block;
+  line-height: 1.5;
+
 }
