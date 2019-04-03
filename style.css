@@ -191,6 +191,33 @@
   margin-top: 20px;
   margin-right: 12px;
 }
+#aside {
+  height: 500px;
+  width: 220px;
+  position: absolute;
+  top:1500px;
+  right:50px;
+}
+#aside img {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  margin-top: 15px;
+}
+#aside a {
+  display: inline-block;
+  width: 125px;
+  height: 75px;
+  text-decoration: none;
+  color: black;
+  vertical-align: top;
+  margin-top: 15px;
+}
+#aside p {
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
 .img-text {
   width: 250px;
   height: 66px;
@@ -231,31 +258,74 @@
 }
 #bottomlinks {
   width:80%;
-  height: 600px;
+  height: 400px;
   margin:0px auto;
   border-top: 3px double lightgray;
+  border-bottom: 1px solid lightgray;
 }
 .nylogo {
   position: absolute;
   height: 35px;
   float: left;
+    margin-top: 10px;
 }
 .nylogo img{
   width: 200px;
   height: 26px;
+
 }
 .bottomholder {
   width:16%;
-  height:400px;
+  height:330px;
   text-align: left;
   display: inline-block;
   vertical-align: top;
-  margin-top: 35px;
+  margin-top: 50px;
   clear:left;
-
 }
 .bottomholder a {
   display: block;
   line-height: 1.5;
-
+  color: black;
+  text-decoration: none;
+}
+.bottomholder p {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.bottomholder a:hover{
+  text-decoration: underline;
+}
+.end {
+  padding-left: 10px;
+  border-left: 1px solid lightgray;
+}
+.subs {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.subs-start {
+  margin-bottom: 10px;
+}
+.subs-end {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+.subs-small{
+  font-size: 12px;
+}
+footer {
+  height: 45px;
+  margin: 0px 20%;
+  padding-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
 }
