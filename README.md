@@ -5,7 +5,7 @@ This project was created by:
 2. [Yunus Emre AYBEY](github.com/YemreAybey)  
 using:
 - *HTML, HTML5*
-- *CSS3*     
+- *CSS3*   
 You can find the live version [here](https://raw.githack.com/Zibilyonik/NYTimesReplica/development/index.html)
 
 **Have a Nice Day**
