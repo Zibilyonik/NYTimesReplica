@@ -2,7 +2,7 @@
 **Replica of an article in NYT**      
 This project was created by:
 1. [Onur Onat SURMELI](github.com/Zibilyonik)
-2. [Yunus Emre AYBEY](github.com/YemreAybey)      
+2. [Yunus Emre AYBEY](github.com/YemreAybey)  
 using:
 - *HTML, HTML5*
 - *CSS3*     
