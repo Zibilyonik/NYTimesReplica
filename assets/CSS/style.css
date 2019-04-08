@@ -328,3 +328,23 @@ footer a {
   text-decoration: none;
   font-size: 12px;
 }
+#Theory {
+  width: 650px;;
+  height: auto;
+}
+#Theory img{
+  width: 650px;
+  height: 750px;
+}
+.inflation {
+  display: inline-flex;
+  justify-content: space-between;
+  width: inherit;
+}
+.inflation span {
+  font-weight: bold;
+  font-size: 12px;
+}
+.inflation p {
+  font-size: 12px;
+}
