@@ -329,8 +329,13 @@ footer a {
   font-size: 12px;
 }
 #Theory {
-  width: 660px;;
+  width: 670px;;
   height: auto;
+}
+#TheoryTitle {
+  font-weight: bold;
+  font-size: 18px;
+  height: 10px;
 }
 #Theory img{
   width: 650px;
@@ -344,17 +349,26 @@ footer a {
 }
 .inflation span {
   font-weight: bold;
-  font-size: 11px;
+  font-size: 12px;
 }
 .inflation p {
-  font-size: 11px;
+  font-size: 12px;
   padding-right: 8px;
 }
 #Inflation1 {
-  top:2180px;
+  top:2050px;
   left: 1px;
 }
 #Inflation2 {
-top:2450px;
+top:2330px;
 left: 1px;
+}
+#Coffee {
+  padding-left: 25px;
+}
+#Fluctuation {
+  padding-right: 15px;
+}
+#AuthorNames .author {
+  font-size: 12px;
 }
