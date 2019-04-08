@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.top-header {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  height: 43px;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  z-index: 500;
+}
+.left {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top:15px;
+  margin-left: 5px;
+}
+.menu {
+  left:5px;
+}
+.search {
+  left:31px;
+}
+.space-cosmos {
+  position: absolute;
+  left:51px;
+  width:auto;
+}
+.mid {
+  position: relative;
+  top:10px;
+  width: 200px;
+  height: 26px;
+  margin: 0px auto;
+  display:block;
+}
+.article-header {
+  width:600px;
+  height: 120px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ripples {
+  margin:0px auto;
+  width:400px;
+  height: 90px;
+  line-height: 1.2;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+}
+#superJumbo {
+  display: block;
+  width:890px;
+  height:500px;
+  margin:0px auto;
+}
+.header-photo figcaption {
+  width:890px;
+  margin:0px auto;
+  text-align: left;
+}
+.before-content {
+  width:620px;
+  margin: 40px auto 40px auto;
+}
+.Dennis {
+  font-size: 16px;
+  font-weight: bold;
+  color:black;
+
+}
+.Dennis a {
+    color: #333;
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+}
+.Dennis a:hover {
+  text-decoration: none;
+}
+
+.before-cont-imgs {
+  width: 620px;
+  margin: 0px auto;
+  color: #333;
+}
+.circle {
+  border-radius: 50%;
+  display: inline-block;
+  padding: 5px;
+  background-color: #eee;
+  top:-8px;
+  position: relative;
+}
+.circle-icons {
+  float:right;
+}
+.bfcimg {
+  height: 18px;
+  position: relative;
+}
+.paragraphs{
+  position: relative;
+  top:0px;
+  width:620px;
+  margin:0px auto;
+  text-align: left;
+  color:#333;
+
+}
+.paragraphs p {
+  margin:25px 0px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.paragraphs h3 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.5;
+  margin:25px 0px;
+}
+#cosmos {
+  width:inherit;
+}
+.top-header button {
+  border-radius: 4px;
+  background-color: #6288A5;
+  height: 34px;
+  float: right;
+  margin-left: 10px;
+  border: 1px solid #326891;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+}
+#subscribe{
+  width: 92.8px;
+  position: absolute;
+  top:5px;
+  right: 85px;
+
+}
+#login{
+  width: 65.89px;
+  margin-right: 10px;
+  position: absolute;
+  top:5px;
+  right: 0;
+}
+.paragraphs figure {
+  width:650px;
+  margin:0px -15px;
+}
+.cosmosfig figcaption, figcaption {
+  text-align: left;
+  font-size: 16px;
+  color: gray;
+  width: inherit;
+  line-height: 1.1;
+}
+.cosmosfig figcaption small, small {
+  font-size: 12px;
+}
+#topic img {
+  height: 165px;
+  width: 250px;
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 12px;
+}
+#topic {
+  border-top: 2px solid;
+  width: 800px;
+  height: 550px;
+  margin-left: 160px;
+  display: inline-block;
+}
+#editor img {
+  height: 165px;
+  width: 250px;
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 12px;
+}
+#aside {
+  height: 500px;
+  width: 220px;
+  position: absolute;
+  top:1500px;
+  right:50px;
+}
+#aside img {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  margin-top: 15px;
+}
+#aside a {
+  display: inline-block;
+  width: 125px;
+  height: 75px;
+  text-decoration: none;
+  color: black;
+  vertical-align: top;
+  margin-top: 15px;
+}
+#aside p {
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+.img-text {
+  width: 250px;
+  height: 66px;
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 0px;
+  vertical-align: text-top;
+}
+.sidebar {
+  height: 1018px;
+  width: 315px;
+  border-top: 2px solid;
+  float: right;
+  display: inline-block;
+}
+.container {
+  width: 1300px;
+  height: 820px;
+  display: inline-block;
+}
+.sidebar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.sidebar-content {
+  border-top: 1px solid gray;
+  height:80px;
+  width: inherit;
+  text-align: left;
+}
+#editor {
+  border-top: 2px solid;
+  width: 800px;
+  height: 350px;
+  margin-left: 160px;
+  display: inline-block;
+}
+#bottomlinks {
+  width:80%;
+  height: 400px;
+  margin:0px auto;
+  border-top: 3px double lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.nylogo {
+  position: absolute;
+  height: 35px;
+  float: left;
+    margin-top: 10px;
+}
+.nylogo img{
+  width: 200px;
+  height: 26px;
+
+}
+.bottomholder {
+  width:16%;
+  height:330px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  clear:left;
+}
+.bottomholder a {
+  display: block;
+  line-height: 1.5;
+  color: black;
+  text-decoration: none;
+}
+.bottomholder p {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.bottomholder a:hover{
+  text-decoration: underline;
+}
+.end {
+  padding-left: 10px;
+  border-left: 1px solid lightgray;
+}
+.subs {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.subs-start {
+  margin-bottom: 10px;
+}
+.subs-end {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+.subs-small{
+  font-size: 12px;
+}
+footer {
+  height: 45px;
+  margin: 0px 20%;
+  padding-top: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
+}
+#Theory {
+  width: 670px;;
+  height: auto;
+}
+#TheoryTitle {
+  font-weight: bold;
+  font-size: 18px;
+  height: 10px;
+}
+#Theory img{
+  width: 650px;
+}
+.inflation {
+  display: inline-flex;
+  justify-content: space-between;
+  width: inherit;
+  position: absolute;
+
+}
+.inflation span {
+  font-weight: bold;
+  font-size: 12px;
+}
+.inflation p {
+  font-size: 12px;
+  padding-right: 8px;
+}
+#Inflation1 {
+  top:2050px;
+  left: 1px;
+}
+#Inflation2 {
+top:2330px;
+left: 1px;
+}
+#Coffee {
+  padding-left: 25px;
+}
+#Fluctuation {
+  padding-right: 15px;
+}
+#AuthorNames .author {
+  font-size: 12px;
+}
